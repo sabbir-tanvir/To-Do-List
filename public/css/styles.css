@@ -1,0 +1,133 @@
+html {
+  background: url('/css/image.jpg') repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+h1 {
+  color: #0b0c0a;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: transparent;
+  border-radius: 5px;
+  backdrop-filter: blur(8px);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #A683E3;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+
+.first-button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.second-button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 100%;
+  background: transparent;
+  backdrop-filter: blur(8px);
+  border: .2rem solid var(purple);
+  border-radius: .8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  color: var(gray);
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+
+}
+
+
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+footer {
+  color: rgb(248, 243, 243);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 9px;
+}
